@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">iWeather</string>
+    <string name="menuItem1">Search city</string>
+    <string name="menuItem2">Favourite places</string>
+    <string name="menuItem3">Where am I?</string>
+    <string name="button_search">Search</string>
+    <string name="button_add">Add</string>
+    <string name="hint_city">e.g. Warsaw</string>
+    <string name="hint_country">e.g. Poland</string>
+    <string name="not_found_city">City was not found</string>
+    <string name="get_weather">Get weather</string>
+    <string name="loading">Loading...</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:svgimageview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchCity"
+    android:background="@drawable/background_main_dark"
+    android:fontFamily="@font/lato">
+
+    <com.caverock.androidsvg.SVGImageView
+        android:id="@+id/image_city"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="85dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_search_city"
+        android:tint="@color/colorText"
+        />
+
+    <EditText
+        android:id="@+id/input_city"
+        android:backgroundTint="@color/colorText"
+        android:textColorHint="@color/colorHintText"
+        android:textColor="@color/colorText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image_city"
+        android:fontFamily="@font/lato_medium"
+        android:hint="@string/hint_city" />
+
+    <EditText
+        android:id="@+id/input_country"
+        android:backgroundTint="@color/colorText"
+        android:textColorHint="@color/colorHintText"
+        android:textColor="@color/colorText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/input_city"
+        android:fontFamily="@font/lato_medium"
+        android:hint="@string/hint_country"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:text="@string/button_search"
+        android:id="@+id/button_search"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_medium"
+        android:layout_below="@id/input_country"
+        android:textColor="@color/colorText"
+        android:background="@drawable/button"/>
+
+    <TextView
+        android:id="@+id/error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_search"
+        android:textColor="@color/colorError"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iWeather</string>
+    <string name="menuItem1">Szukaj miasta</string>
+    <string name="menuItem2">Ulubione miejsca</string>
+    <string name="menuItem3">Gdzie jestem?</string>
+    <string name="button_search">Szukaj</string>
+    <string name="hint_city">np. Warsaw</string>
+    <string name="hint_country">np. Poland</string>
+    <string name="not_found_city">Miasta nie znaleziono</string>
+    <string name="get_weather">Pobieranie pogody</string>
+    <string name="loading">Pobieranie...</string>
+    <string name="mon">Pon</string>
+    <string name="tue">Wto</string>
+    <string name="wed">Śro</string>
+    <string name="thu">Czw</string>
+    <string name="fri">Pią</string>
+    <string name="sat">Sob</string>
+    <string name="sun">Nie</string>
+    <string name="button_add">Dodaj</string>
+</resources>
